@@ -5,7 +5,7 @@
     <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="index.php" class="simple-text">
-                    Team X
+                    Covid 19 PDS
                 </a>
             </div>
 
