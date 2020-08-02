@@ -2028,7 +2028,10 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .footer .copyright {
-    color: #777777;
+    background: #5c5c5c;
+    color: white;
+    padding-top: 0;
+    
     padding: 10px 15px;
     margin: 10px 3px;
     line-height: 20px;
