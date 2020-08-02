@@ -51,7 +51,7 @@
             </div>
 
             <ul class="nav">
-                <li >
+                <li class="active">
                     <a href="index.php">
                         <i class="pe-7s-graph"></i>
                         <p>HOME</p>
@@ -96,10 +96,19 @@
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
                 <div class="navbar-header">
-                   
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">Home</a>
                 </div>
-               
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                    </ul>
+
+                </div>
             </div>
         </nav>
 
