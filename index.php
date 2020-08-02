@@ -45,58 +45,47 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
+                <a href="index.php" class="simple-text">
                     Team X
                 </a>
             </div>
 
             <ul class="nav">
                 <li class="active">
-                    <a href="dashboard.html">
+                    <a href="index.php">
                         <i class="pe-7s-graph"></i>
-                        <p>Dashboard</p>
+                        <p>HOME</p>
                     </a>
                 </li>
                 <li>
-                    <a href="user.html">
+                    <a href="#">
                         <i class="pe-7s-user"></i>
-                        <p>User Profile</p>
+                        <p>Section-2</p>
                     </a>
                 </li>
                 <li>
-                    <a href="table.html">
-                        <i class="pe-7s-note2"></i>
-                        <p>Table List</p>
+                    <a href="#">
+                        <i class="pe-7s-user"></i>
+                        <p>Section-3</p>
                     </a>
                 </li>
                 <li>
-                    <a href="typography.html">
-                        <i class="pe-7s-news-paper"></i>
-                        <p>Typography</p>
+                    <a href="#">
+                        <i class="pe-7s-user"></i>
+                        <p>Section-4</p>
                     </a>
                 </li>
                 <li>
-                    <a href="icons.html">
-                        <i class="pe-7s-science"></i>
-                        <p>Icons</p>
+                    <a href="#">
+                        <i class="pe-7s-user"></i>
+                        <p>Section-5</p>
                     </a>
                 </li>
-                <li>
-                    <a href="maps.html">
-                        <i class="pe-7s-map-marker"></i>
-                        <p>Maps</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="notifications.html">
-                        <i class="pe-7s-bell"></i>
-                        <p>Notifications</p>
-                    </a>
-                </li>
+            
 				<li class="active-pro">
-                    <a href="upgrade.html">
-                        <i class="pe-7s-rocket"></i>
-                        <p>Upgrade to PRO</p>
+                    <a href="team.php">
+                        <i class="pe-7s-user"></i>
+                        <p>Out Team</p>
                     </a>
                 </li>
             </ul>
