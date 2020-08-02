@@ -1,4 +1,18 @@
 
+        <footer class="footer">
+                <div class="container-fluid">
+                    <p class="copyright pull-center">
+                        
+                        &copy; <script>document.write(new Date().getFullYear())</script> Team x</a>, Covid 19 Sri lanka
+                        
+                    </p>
+                </div>
+
+        </div>
+    </div>
+
+    </body>
+
     <!--   Core JS Files   -->
     <script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
 	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
