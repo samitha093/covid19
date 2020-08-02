@@ -73,7 +73,7 @@ require_once("includes/header.php");
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Covid 19 Public Distribution System</a>
+                    <a class="navbar-brand" href="#">Public Distribution System</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
