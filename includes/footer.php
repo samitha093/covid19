@@ -39,7 +39,7 @@
 
         	$.notify({
             	icon: 'pe-7s-gift',
-            	message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
+            	message: "Welcome to <b>Covid 19 Public Distribution System</b> -- From team x."
 
             },{
                 type: 'info',
