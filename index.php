@@ -397,7 +397,7 @@
             <div class="container-fluid">
                 <p class="copyright pull-center">
                     
-                    &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
+                    &copy; <script>document.write(new Date().getFullYear())</script> Team x</a>, Covid 19 Sri lanka
                     
                 </p>
             </div>
