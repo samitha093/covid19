@@ -521,7 +521,10 @@ input:focus {
 }
 
 .main-panel > .footer {
-    border-top: 1px solid #5c5c5c;
+    border-top: 1px solid #e7e7e7;
+    background: #5c5c5c;
+    color: white;
+    padding-top: 0;
 }
 
 .main-panel .navbar {
