@@ -3,7 +3,7 @@
                 <div class="container-fluid">
                     <p class="copyright pull-center">
                         
-                        &copy; <script>document.write(new Date().getFullYear())</script> Team x</a>, Covid 19 Sri lanka
+                        &copy; <script>document.write(new Date().getFullYear())</script> Team Hack-Super</a>, Covid 19 Sri lanka
                         
                     </p>
                 </div>

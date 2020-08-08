@@ -65,7 +65,7 @@ require_once("includes/sidebar.php");
                             </div>
 
                             <div class="tab-2">
-                                <h4 class="title">Tab 2</h4>
+                                <h4 class="title">tab-2</h4>
                                 <ul class="item">
                                     <li class="item-box">Exports Gross Value = 
                                     <?php 
