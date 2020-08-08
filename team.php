@@ -80,8 +80,8 @@ require_once("includes/sidebar.php");
                                      <a href="#">
                                     <img class="avatar border-gray" src="sa.jpg" alt="..."/>
 
-                                      <h4 class="title">Mike Andrew<br />
-                                         <small>aroshawanigasundara7@gmail.com</small>
+                                      <h4 class="title">Lakshan Pathiraja<br />
+                                         <small>slakshan@ieee.org</small>
                                       </h4>
                                     </a>
                                 </div>
