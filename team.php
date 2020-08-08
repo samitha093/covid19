@@ -25,7 +25,7 @@ require_once("includes/sidebar.php");
                                       </h4>
                                     </a>
                                 </div>
-                                <p class="description text-center"> "Group leader & AI developer <br>
+                                <p class="description text-center"> Group leader & AI developer <br>
                                 </p>
                             </div>
                             <hr>
@@ -53,9 +53,7 @@ require_once("includes/sidebar.php");
                                       </h4>
                                     </a>
                                 </div>
-                                <p class="description text-center"> "Lamborghini Mercy <br>
-                                                    Your chick she so thirsty <br>
-                                                    I'm in that two seat Lambo"
+                                <p class="description text-center"> Data collector & Data analizer  <br>
                                 </p>
                             </div>
                             <hr>
@@ -83,9 +81,7 @@ require_once("includes/sidebar.php");
                                       </h4>
                                     </a>
                                 </div>
-                                <p class="description text-center"> "Lamborghini Mercy <br>
-                                                    Your chick she so thirsty <br>
-                                                    I'm in that two seat Lambo"
+                                <p class="description text-center"> Web designer & Backend developer <br>
                                 </p>
                             </div>
                             <hr>
@@ -113,9 +109,7 @@ require_once("includes/sidebar.php");
                                       </h4>
                                     </a>
                                 </div>
-                                <p class="description text-center"> "Lamborghini Mercy <br>
-                                                    Your chick she so thirsty <br>
-                                                    I'm in that two seat Lambo"
+                                <p class="description text-center"> Data analizing & AI modal<br>& script developer <br>
                                 </p>
                             </div>
                             <hr>
