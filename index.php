@@ -4,7 +4,7 @@ require_once("includes/sidebar.php");
 ?>
 
 <?php   
-    $data = file_get_contents("data.json");  
+    $data = file_get_contents("https://raw.githubusercontent.com/slakshanpathiraja/skypipit/master/data.json");  
     $data = json_decode($data,true);  
 ?>  
 
