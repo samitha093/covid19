@@ -23,9 +23,9 @@ require_once("includes/sidebar.php");
                             </div>
                             <div class="content">
                             <h4 class="title">Exchange Rate</h4>
-                            <ul class="tabs">
-                                <li><h6 class="buying">Buying</h4></li>
-                                <li><h6 class="selling">Selling</h4></li>
+                            <ul class="Exchange">
+                                <li><h5 class="buying">Buying</h5></li>
+                                <li><h5 class="selling">Selling</h5></li>
                             </ul>
                             <h4 class="title">Liquidity</h4>
                                 <div class="footer">
