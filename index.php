@@ -50,80 +50,87 @@ require_once("includes/sidebar.php");
                                     ?>  
                                     </li>
                                 </ul>
+                                <h4 class="title">Liquidity</h4>
+                                <ul class="item">
+                                    <li class="item-box">Liquidity 
+                                    <?php 
+                                    foreach($data as $adata){  
+                                        echo $adata["Liquidity"];   
+                                    }  
+                                    ?> 
+                                    </li>
+                                </ul>
                             </div>
 
-                            <h4 class="title">Liquidity</h4>
-                            <ul class="item">
-                                <li class="item-box">Liquidity 
-                                <?php 
-                                foreach($data as $adata){  
-                                    echo $adata["Liquidity"];   
-                                }  
-                                ?> 
-                                </li>
-                            </ul>
+                            <div class="tab-2">
+                                <h4 class="title">Tab 2</h4>
+                                <ul class="item">
+                                    <li class="item-box">Exports Gross Value
+                                    <?php 
+                                    foreach($data as $adata){  
+                                        echo $adata["Exports Gross Value"];   
+                                    }  
+                                    ?>  
+                                    </li>
+                                </ul>
+                                <ul class="item">
+                                    <li class="item-box">Imports Gross Value 
+                                    <?php 
+                                    foreach($data as $adata){  
+                                        echo $adata["Imports Gross Value"];   
+                                    }  
+                                    ?>   
+                                    </li>
+                                </ul>
+                            </div>
 
-                            <h4 class="title">Tab 2</h4>
-                            <ul class="item">
-                                <li class="item-box">Exports Gross Value
-                                <?php 
-                                foreach($data as $adata){  
-                                    echo $adata["Exports Gross Value"];   
-                                }  
-                                ?>  
-                                </li>
-                            </ul>
-                            <ul class="item">
-                                <li class="item-box">Imports Gross Value 
-                                <?php 
-                                foreach($data as $adata){  
-                                    echo $adata["Imports Gross Value"];   
-                                }  
-                                ?>   
-                                </li>
-                            </ul>
+                            <div class="tab-3">
+                                <h4 class="title">Tab 3</h4>
+                                <ul class="item">
+                                    <li class="item-box">Local Quantity 
+                                    <?php 
+                                    foreach($data as $adata){  
+                                        echo $adata["Local Quantity"];   
+                                    }  
+                                    ?>   
+                                    </li>
+                                </ul>
+                                <ul class="item">
+                                    <li class="item-box">Foreign Quantity
+                                    <?php 
+                                    foreach($data as $adata){  
+                                        echo $adata["Foreign Quantity"];   
+                                    }  
+                                    ?>   
+                                    </li>
+                                </ul>
+                            </div>
 
-                            <h4 class="title">Tab 3</h4>
-                            <ul class="item">
-                                <li class="item-box">Local Quantity 
-                                <?php 
-                                foreach($data as $adata){  
-                                    echo $adata["Local Quantity"];   
-                                }  
-                                ?>   
-                                </li>
-                            </ul>
-                            <ul class="item">
-                                <li class="item-box">Foreign Quantity
-                                <?php 
-                                foreach($data as $adata){  
-                                    echo $adata["Foreign Quantity"];   
-                                }  
-                                ?>   
-                                </li>
-                            </ul>
+                            <div class="tab-4">
+                                <h4 class="title">Tab 4</h4>
+                                <ul class="item">
+                                    <li class="item-box">Remittance GDP Change
+                                    <?php 
+                                    foreach($data as $adata){  
+                                        echo $adata["Remittance GDP Change"];   
+                                    }  
+                                    ?>  
+                                    </li>
+                                </ul>
+                            </div>
 
-                            <h4 class="title">Tab 4</h4>
-                            <ul class="item">
-                                <li class="item-box">Remittance GDP Change
-                                <?php 
-                                foreach($data as $adata){  
-                                    echo $adata["Remittance GDP Change"];   
-                                }  
-                                ?>  
-                                </li>
-                            </ul>
-
-                            <h4 class="title">Tab 5</h4>
-                            <ul class="item">
-                                <li class="item-box">Apparel Exports
-                                <?php 
-                                foreach($data as $adata){  
-                                    echo $adata["Apparel Exports"];   
-                                }  
-                                ?>  
-                                </li>
-                            </ul>
+                            <div class="tab-5">
+                                <h4 class="title">Tab 5</h4>
+                                <ul class="item">
+                                    <li class="item-box">Apparel Exports
+                                    <?php 
+                                    foreach($data as $adata){  
+                                        echo $adata["Apparel Exports"];   
+                                    }  
+                                    ?>  
+                                    </li>
+                                </ul>
+                            </div>
 
                        
 

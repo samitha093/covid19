@@ -56,6 +56,10 @@
         });
         function reset (time) {
             $( ".tab-1" ).slideUp(time);
+            $( ".tab-2" ).slideUp(time);
+            $( ".tab-3" ).slideUp(time);
+            $( ".tab-4" ).slideUp(time);
+            $( ".tab-5" ).slideUp(time);
         }
     </script>
 
