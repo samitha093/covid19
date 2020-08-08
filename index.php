@@ -17,7 +17,7 @@ require_once("includes/sidebar.php");
                     <div class="col-md-8">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Users Behavior</h4>
+                                <h4 class="title">Users Behaviors</h4>
                             </div>
 
                             <div class="content">
