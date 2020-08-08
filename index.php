@@ -67,10 +67,11 @@ require_once("includes/sidebar.php");
                           print_r($data);
                           echo '</pre>'; 
 
-                          foreach($data as $adata)  
-                          {  
-                               echo '<tr><td>'.$adata["Buying"].'</td></tr>';  
-                               echo '<tr><td>'.$adata["Liquidity"].'</td></tr>';  
+                          foreach($data as $adata){  
+                            echo '<tr><td>'.$adata["Liquidity"].'</td></tr>'; 
+                            foreach($adata as $bdata){
+                                echo '<tr><td>'.$bdata["Buying"].'</td></tr>';  
+                            }    
                           }  
                           ?>  
 
