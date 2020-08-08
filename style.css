@@ -9,4 +9,5 @@
 }
 .item-box{
     background-color: aqua;
+    display: block;
 }
