@@ -23,6 +23,8 @@
 
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="assets/css/demo.css" rel="stylesheet" />
+    <!--  custom style sheet    -->
+    <link href="style.css" rel="stylesheet" />
 
 
     <!--     Fonts and icons     -->
