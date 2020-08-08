@@ -31,7 +31,7 @@ require_once("includes/sidebar.php");
                             <div class="tab-1">
                                 <h4 class="title">Exchange Rate</h4>
                                 <ul class="item">
-                                    <li class="item-box">Buying =   
+                                    <li class="item-box">Buying = Rs   
                                     <?php 
                                     foreach($data as $adata){ 
                                         foreach($adata as $bdata){
@@ -42,7 +42,7 @@ require_once("includes/sidebar.php");
                                     </li>
                                 </ul>
                                 <ul class="item">
-                                    <li class="item-box">Selling = 
+                                    <li class="item-box">Selling =  Rs  
                                     <?php 
                                     foreach($data as $adata){ 
                                         foreach($adata as $bdata){
@@ -54,7 +54,7 @@ require_once("includes/sidebar.php");
                                 </ul>
                                 <h4 class="title">Liquidity</h4>
                                 <ul class="item">
-                                    <li class="item-box">Liquidity = 
+                                    <li class="item-box">Liquidity = Rs  
                                     <?php 
                                     foreach($data as $adata){  
                                         echo $adata["Liquidity"];   
@@ -67,7 +67,7 @@ require_once("includes/sidebar.php");
                             <div class="tab-2">
                                 <h4 class="title"> </h4>
                                 <ul class="item">
-                                    <li class="item-box">Exports Gross Value = 
+                                    <li class="item-box">Exports Gross Value = Rs  
                                     <?php 
                                     foreach($data as $adata){  
                                         echo $adata["Exports Gross Value"];   
@@ -76,7 +76,7 @@ require_once("includes/sidebar.php");
                                     </li>
                                 </ul>
                                 <ul class="item">
-                                    <li class="item-box">Imports Gross Value = 
+                                    <li class="item-box">Imports Gross Value = Rs  
                                     <?php 
                                     foreach($data as $adata){  
                                         echo $adata["Imports Gross Value"];   
@@ -89,7 +89,7 @@ require_once("includes/sidebar.php");
                             <div class="tab-3">
                                 <h4 class="title">  </h4>
                                 <ul class="item">
-                                    <li class="item-box">Local Quantity =  
+                                    <li class="item-box">Local Quantity =  Rs  
                                     <?php 
                                     foreach($data as $adata){  
                                         echo $adata["Local Quantity"];   
@@ -98,7 +98,7 @@ require_once("includes/sidebar.php");
                                     </li>
                                 </ul>
                                 <ul class="item">
-                                    <li class="item-box">Foreign Quantity = 
+                                    <li class="item-box">Foreign Quantity = Rs  
                                     <?php 
                                     foreach($data as $adata){  
                                         echo $adata["Foreign Quantity"];   
@@ -111,7 +111,7 @@ require_once("includes/sidebar.php");
                             <div class="tab-4">
                                 <h4 class="title">  </h4>
                                 <ul class="item">
-                                    <li class="item-box">Remittance GDP Change = 
+                                    <li class="item-box">Remittance GDP Change = Rs  
                                     <?php 
                                     foreach($data as $adata){  
                                         echo $adata["Remittance GDP Change"];   
@@ -124,7 +124,7 @@ require_once("includes/sidebar.php");
                             <div class="tab-5">
                                 <h4 class="title">  </h4>
                                 <ul class="item">
-                                    <li class="item-box">Apparel Exports = 
+                                    <li class="item-box">Apparel Exports = Rs  
                                     <?php 
                                     foreach($data as $adata){  
                                         echo $adata["Apparel Exports"];   
