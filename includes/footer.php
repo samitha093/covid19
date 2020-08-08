@@ -59,6 +59,18 @@
                 reset(1000);
                 $( ".tab-2" ).delay(1000).slideDown(1000);
             });
+            $("#tab-3").click(function(){
+                reset(1000);
+                $( ".tab-3" ).delay(1000).slideDown(1000);
+            });
+            $("#tab-4").click(function(){
+                reset(1000);
+                $( ".tab-4" ).delay(1000).slideDown(1000);
+            });
+            $("#tab-5").click(function(){
+                reset(1000);
+                $( ".tab-5" ).delay(1000).slideDown(1000);
+            });
 
         });
         function reset (time) {
