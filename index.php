@@ -22,15 +22,42 @@ require_once("includes/sidebar.php");
                                 <h4 class="title">Covid Post in Sri lanka</h4>
                             </div>
                             <div class="content">
+
                             <h4 class="title">Exchange Rate</h4>
                             <ul class="item">
                                 <li class="item-box">Buying  45  </li>
                                 <li class="item-box">Selling  75  </li>
                             </ul>
+
                             <h4 class="title">Liquidity</h4>
                             <ul class="item">
                                 <li class="item-box">Liquidity  45  </li>
                             </ul>
+
+                            <h4 class="title">Tab 2</h4>
+                            <ul class="item">
+                                <li class="item-box">Exports Gross Value  45  </li>
+                                <li class="item-box">Imports Gross Value  45  </li>
+                            </ul>
+
+                            <h4 class="title">Tab 3</h4>
+                            <ul class="item">
+                                <li class="item-box">Local Quantity  45  </li>
+                                <li class="item-box">Foreign Quantity  45  </li>
+                            </ul>
+
+                            <h4 class="title">Tab 4</h4>
+                            <ul class="item">
+                                <li class="item-box">Remittance GDP Change  45  </li>
+                            </ul>
+
+                            <h4 class="title">Tab 5</h4>
+                            <ul class="item">
+                                <li class="item-box">Apparel Exports  45  </li>
+                            </ul>
+
+
+
                                 <div class="footer">
                                     <hr>
                                     <div class="stats">

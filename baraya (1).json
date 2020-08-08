@@ -1,0 +1,34 @@
+{
+    "Tab 1":
+    {
+        "Exchange Rate":{
+            "Buying" : 10,
+            "Selling" : 13
+        },
+        "Liquidity":12.5
+    },
+
+    "Tab 2":
+    {
+        "Exports Gross Value":25,
+        "Imports Gross Value":13
+    },
+    
+    "Tab 3":
+    {
+        "Local Quantity":12,
+        "Foreign Quantity":11
+    },
+
+    "Tab 4":
+    {
+        "Remittance GDP Change":12.5
+    },
+
+    "Tab 5":
+    {
+        "Apparel Exports":12.5
+    }
+
+
+}
