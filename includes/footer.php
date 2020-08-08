@@ -47,6 +47,12 @@
             });
 
     	});
-	</script>
+    </script>
+    
+    <script>
+        $(document).ready(function(){
+            $( ".title" ).slideUp(time);
+        });
+    </script>
 
 </html>
