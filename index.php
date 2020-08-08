@@ -40,6 +40,8 @@ require_once("includes/sidebar.php");
                                     }  
                                     ?>
                                     </li>
+                                </ul>
+                                <ul class="item">
                                     <li class="item-box">Selling
                                     <?php 
                                     foreach($data as $adata){ 
