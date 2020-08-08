@@ -3,6 +3,23 @@ require_once("includes/header.php");
 require_once("includes/sidebar.php");
 ?>
 
+<?php   
+    $data = file_get_contents("data.json");  
+    $data = json_decode($data,true);  
+    echo '<pre>'; 
+    print_r($data);
+    echo '</pre>'; 
+
+    foreach($data as $adata){  
+        $Liquidity = .$adata["Liquidity"]; 
+        echo '<tr><td>'.$adata["Exports Gross Value"].'</td></tr>'; 
+        foreach($adata as $bdata){
+            echo '<tr><td>'.$bdata["Buying"].'</td></tr>';  
+            echo '<tr><td>'.$bdata["Selling"].'</td></tr>';
+        }    
+    }  
+?>  
+
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
@@ -31,7 +48,7 @@ require_once("includes/sidebar.php");
 
                             <h4 class="title">Liquidity</h4>
                             <ul class="item">
-                                <li class="item-box">Liquidity  45  </li>
+                                <li class="item-box">Liquidity  <?php $Liquidity ?> </li>
                             </ul>
 
                             <h4 class="title">Tab 2</h4>
@@ -60,22 +77,7 @@ require_once("includes/sidebar.php");
                                 <li class="item-box">Apparel Exports  45  </li>
                             </ul>
 
-                        <?php   
-                          $data = file_get_contents("data.json");  
-                          $data = json_decode($data,true);  
-                          echo '<pre>'; 
-                          print_r($data);
-                          echo '</pre>'; 
-
-                          foreach($data as $adata){  
-                            echo '<tr><td>'.$adata["Liquidity"].'</td></tr>'; 
-                            echo '<tr><td>'.$adata["Exports Gross Value"].'</td></tr>'; 
-                            foreach($adata as $bdata){
-                                echo '<tr><td>'.$bdata["Buying"].'</td></tr>';  
-                                echo '<tr><td>'.$bdata["Selling"].'</td></tr>';
-                            }    
-                          }  
-                          ?>  
+                       
 
                                 <div class="footer">
                                     <hr>
