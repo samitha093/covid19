@@ -55,7 +55,7 @@ require_once("includes/sidebar.php");
                                 <?php 
                                 foreach($data as $adata){ 
                                     foreach($adata as $bdata){
-                                        echo $bdata["Buying"];  
+                                        echo $bdata["Selling"];  
                                     }      
                                 }  
                                 ?>  
