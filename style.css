@@ -11,12 +11,12 @@
     color: #777777;
 }
 .item-box{
-    border-width: 20px;
+    border-width: medium;
     border-color: black;
     border-radius: 10px;
     margin: 20px;
     padding: 10px;
     text-align: center;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(231, 231, 231);
     display: block;
 }
