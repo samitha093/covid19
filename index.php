@@ -83,20 +83,44 @@ require_once("includes/sidebar.php");
 
                             <h4 class="title">Tab 3</h4>
                             <ul class="item">
-                                <li class="item-box">Local Quantity  45  </li>
+                                <li class="item-box">Local Quantity 
+                                <?php 
+                                foreach($data as $adata){  
+                                    echo $adata["Local Quantity"];   
+                                }  
+                                ?>   
+                                </li>
                             </ul>
                             <ul class="item">
-                                <li class="item-box">Foreign Quantity  45  </li>
+                                <li class="item-box">Foreign Quantity
+                                <?php 
+                                foreach($data as $adata){  
+                                    echo $adata["Foreign Quantity"];   
+                                }  
+                                ?>   
+                                </li>
                             </ul>
 
                             <h4 class="title">Tab 4</h4>
                             <ul class="item">
-                                <li class="item-box">Remittance GDP Change  45  </li>
+                                <li class="item-box">Remittance GDP Change
+                                <?php 
+                                foreach($data as $adata){  
+                                    echo $adata["Remittance GDP Change"];   
+                                }  
+                                ?>  
+                                </li>
                             </ul>
 
                             <h4 class="title">Tab 5</h4>
                             <ul class="item">
-                                <li class="item-box">Apparel Exports  45  </li>
+                                <li class="item-box">Apparel Exports
+                                <?php 
+                                foreach($data as $adata){  
+                                    echo $adata["Apparel Exports"];   
+                                }  
+                                ?>  
+                                </li>
                             </ul>
 
                        
