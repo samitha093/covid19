@@ -28,27 +28,29 @@ require_once("includes/sidebar.php");
                             </div>
                             <div class="content">
 
-                            <h4 class="title">Exchange Rate</h4>
-                            <ul class="item">
-                                <li class="item-box">Buying  
-                                <?php 
-                                foreach($data as $adata){ 
-                                    foreach($adata as $bdata){
-                                        echo $bdata["Buying"];  
-                                    }      
-                                }  
-                                ?>
-                                </li>
-                                <li class="item-box">Selling
-                                <?php 
-                                foreach($data as $adata){ 
-                                    foreach($adata as $bdata){
-                                        echo $bdata["Selling"];  
-                                    }      
-                                }  
-                                ?>  
-                                </li>
-                            </ul>
+                            <div class="tab-1">
+                                <h4 class="title">Exchange Rate</h4>
+                                <ul class="item">
+                                    <li class="item-box">Buying  
+                                    <?php 
+                                    foreach($data as $adata){ 
+                                        foreach($adata as $bdata){
+                                            echo $bdata["Buying"];  
+                                        }      
+                                    }  
+                                    ?>
+                                    </li>
+                                    <li class="item-box">Selling
+                                    <?php 
+                                    foreach($data as $adata){ 
+                                        foreach($adata as $bdata){
+                                            echo $bdata["Selling"];  
+                                        }      
+                                    }  
+                                    ?>  
+                                    </li>
+                                </ul>
+                            </div>
 
                             <h4 class="title">Liquidity</h4>
                             <ul class="item">

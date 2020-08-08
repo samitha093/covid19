@@ -52,8 +52,11 @@
     
     <script>
         $(document).ready(function(){
-            $( ".title" ).slideUp(0);
+            reset(0); 
         });
+        function reset (time) {
+            $( ".tab-1" ).slideUp(time);
+        }
     </script>
 
 </html>
