@@ -16,11 +16,10 @@ require_once("includes/sidebar.php");
         foreach($adata as $bdata){
             echo '<tr><td>'.$bdata["Buying"].'</td></tr>';  
             echo '<tr><td>'.$bdata["Selling"].'</td></tr>';
-        }    
-    }  
-?>  
-
-        <div class="content">
+    
+ 
+echo
+        '<div class="content">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4">
@@ -48,7 +47,7 @@ require_once("includes/sidebar.php");
 
                             <h4 class="title">Liquidity</h4>
                             <ul class="item">
-                                <li class="item-box">Liquidity  <?php echo $Liquidity; ?> </li>
+                                <li class="item-box">Liquidity   echo $Liquidity;  </li>
                             </ul>
 
                             <h4 class="title">Tab 2</h4>
@@ -75,9 +74,11 @@ require_once("includes/sidebar.php");
                             <h4 class="title">Tab 5</h4>
                             <ul class="item">
                                 <li class="item-box">Apparel Exports  45  </li>
-                            </ul>
+                            </ul>';
 
-                       
+    }    
+} 
+?>  
 
                                 <div class="footer">
                                     <hr>
