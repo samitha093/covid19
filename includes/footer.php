@@ -40,7 +40,7 @@
 
         	$.notify({
             	icon: 'pe-7s-gift',
-            	message: "Welcome to <b>Covid 19 Public Distribution System</b> -- From team x."
+            	message: "Welcome to <b>Covid 19 Public Distribution System</b> -- From Team Hack-Super."
 
             },{
                 type: 'info',
