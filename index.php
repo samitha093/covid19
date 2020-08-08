@@ -24,7 +24,7 @@ require_once("includes/sidebar.php");
 
 
                             <div class="header">
-                                <h4 class="title">Covid Post in Sri lanka</h4>
+                                <h4 class="title">Post Covid Sri lanka</h4>
                             </div>
                             <div class="content">
 
@@ -65,7 +65,7 @@ require_once("includes/sidebar.php");
                             </div>
 
                             <div class="tab-2">
-                                <h4 class="title">tab-2</h4>
+                                <h4 class="title"> </h4>
                                 <ul class="item">
                                     <li class="item-box">Exports Gross Value = 
                                     <?php 
