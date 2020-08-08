@@ -48,7 +48,7 @@ require_once("includes/sidebar.php");
                             <div class="content">
                                 <div class="author">
                                      <a href="#">
-                                    <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..."/>
+                                    <img class="avatar border-gray" src="ar.jpg" alt="..."/>
 
                                       <h4 class="title">Mike Andrew<br />
                                          <small>michael24</small>
@@ -78,7 +78,7 @@ require_once("includes/sidebar.php");
                             <div class="content">
                                 <div class="author">
                                      <a href="#">
-                                    <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..."/>
+                                    <img class="avatar border-gray" src="sa.jpg" alt="..."/>
 
                                       <h4 class="title">Mike Andrew<br />
                                          <small>aroshawanigasundara7@gmail.com</small>
@@ -108,7 +108,7 @@ require_once("includes/sidebar.php");
                             <div class="content">
                                 <div class="author">
                                      <a href="#">
-                                    <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..."/>
+                                    <img class="avatar border-gray" src="sh.jpg" alt="..."/>
 
                                       <h4 class="title">Mike Andrew<br />
                                          <small>michael24</small>
