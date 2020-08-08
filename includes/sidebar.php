@@ -10,31 +10,31 @@
             </div>
 
             <ul class="nav">
-                <li class="active">
+                <li class="active" id="tab-1">
                     <a href="index.php">
                         <i class="pe-7s-graph"></i>
                         <p>HOME</p>
                     </a>
                 </li>
-                <li>
+                <li id="tab-2">
                     <a href="#">
                         <i class="pe-7s-user"></i>
                         <p>Section-2</p>
                     </a>
                 </li>
-                <li>
+                <li id="tab-3">
                     <a href="#">
                         <i class="pe-7s-user"></i>
                         <p>Section-3</p>
                     </a>
                 </li>
-                <li>
+                <li id="tab-4">
                     <a href="#">
                         <i class="pe-7s-user"></i>
                         <p>Section-4</p>
                     </a>
                 </li>
-                <li>
+                <li id="tab-5">
                     <a href="#">
                         <i class="pe-7s-user"></i>
                         <p>Section-5</p>

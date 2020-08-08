@@ -54,6 +54,12 @@
         $(document).ready(function(){
             reset(0);
             $( ".tab-1" ).delay(1000).slideDown(1000); 
+
+            $("#tab-2").click(function(){
+                reset(1000);
+                $( ".tab-2" ).delay(1000).slideDown(1000);
+            });
+
         });
         function reset (time) {
             $( ".tab-1" ).slideUp(time);
