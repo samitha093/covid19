@@ -37,12 +37,16 @@ require_once("includes/sidebar.php");
                             <h4 class="title">Tab 2</h4>
                             <ul class="item">
                                 <li class="item-box">Exports Gross Value  45  </li>
+                            </ul>
+                            <ul class="item">
                                 <li class="item-box">Imports Gross Value  45  </li>
                             </ul>
 
                             <h4 class="title">Tab 3</h4>
                             <ul class="item">
                                 <li class="item-box">Local Quantity  45  </li>
+                            </ul>
+                            <ul class="item">
                                 <li class="item-box">Foreign Quantity  45  </li>
                             </ul>
 
