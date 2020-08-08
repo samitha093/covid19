@@ -8,7 +8,8 @@ require_once("includes/sidebar.php");
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
-
+                         
+                            <Img src="unnamed.png">
                             <div class="header">
                                 <h4 class="title">Email Statistics</h4>
                                 <p class="category">Last Campaign Performance</p>
