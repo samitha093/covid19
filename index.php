@@ -69,8 +69,10 @@ require_once("includes/sidebar.php");
 
                           foreach($data as $adata){  
                             echo '<tr><td>'.$adata["Liquidity"].'</td></tr>'; 
+                            echo '<tr><td>'.$adata["Exports Gross Value"].'</td></tr>'; 
                             foreach($adata as $bdata){
                                 echo '<tr><td>'.$bdata["Buying"].'</td></tr>';  
+                                echo '<tr><td>'.$bdata["Selling"].'</td></tr>';
                             }    
                           }  
                           ?>  
