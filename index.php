@@ -60,7 +60,13 @@ require_once("includes/sidebar.php");
                                 <li class="item-box">Apparel Exports  45  </li>
                             </ul>
 
-
+                        <?php   
+                          $data = file_get_contents("data.json");  
+                          $data = json_decode($data);  
+                          echo '<pre>'; 
+                          print_r($data);
+                          echo '</pre>'; 
+                          ?>  
 
                                 <div class="footer">
                                     <hr>
