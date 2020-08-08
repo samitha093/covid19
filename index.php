@@ -87,7 +87,7 @@ require_once("includes/sidebar.php");
                             </div>
 
                             <div class="tab-3">
-                                <h4 class="title">Tab 3</h4>
+                                <h4 class="title">  </h4>
                                 <ul class="item">
                                     <li class="item-box">Local Quantity =  
                                     <?php 
@@ -109,7 +109,7 @@ require_once("includes/sidebar.php");
                             </div>
 
                             <div class="tab-4">
-                                <h4 class="title">Tab 4</h4>
+                                <h4 class="title">  </h4>
                                 <ul class="item">
                                     <li class="item-box">Remittance GDP Change = 
                                     <?php 
@@ -122,7 +122,7 @@ require_once("includes/sidebar.php");
                             </div>
 
                             <div class="tab-5">
-                                <h4 class="title">Tab 5</h4>
+                                <h4 class="title">  </h4>
                                 <ul class="item">
                                     <li class="item-box">Apparel Exports = 
                                     <?php 

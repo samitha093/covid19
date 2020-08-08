@@ -20,8 +20,8 @@ require_once("includes/sidebar.php");
                                      <a href="#">
                                     <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..."/>
 
-                                      <h4 class="title">Mike Andrew<br />
-                                         <small>michael24</small>
+                                      <h4 class="title">Vidura Wijekoon<br />
+                                         <small>vidurawijekoon@ieee.org</small>
                                       </h4>
                                     </a>
                                 </div>
