@@ -1,6 +1,6 @@
 <body>
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="https://pixabay.com/get/52e9d0414351af14f6da8c7dda35367b1c39dde353567949_1280.jpg">
+    <div class="sidebar" data-color="purple" data-image="corona-5401250_1920.jpg">
 
     <div class="sidebar-wrapper">
             <div class="logo">
