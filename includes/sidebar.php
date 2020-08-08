@@ -5,7 +5,7 @@
     <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="index.php" class="simple-text">
-                    Covid 19 PDS
+                    Future SriLanka
                 </a>
             </div>
 
@@ -19,25 +19,25 @@
                 <li id="tab-2">
                     <a href="#">
                         <i class="pe-7s-user"></i>
-                        <p>Section-2</p>
+                        <p>Imports/Exports</p>
                     </a>
                 </li>
                 <li id="tab-3">
                     <a href="#">
                         <i class="pe-7s-user"></i>
-                        <p>Section-3</p>
+                        <p>Tourism</p>
                     </a>
                 </li>
                 <li id="tab-4">
                     <a href="#">
                         <i class="pe-7s-user"></i>
-                        <p>Section-4</p>
+                        <p>Remittance</p>
                     </a>
                 </li>
                 <li id="tab-5">
                     <a href="#">
                         <i class="pe-7s-user"></i>
-                        <p>Section-5</p>
+                        <p>Apparel</p>
                     </a>
                 </li>
             
@@ -61,7 +61,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Public Distribution System</a>
+                    <a class="navbar-brand" href="#">Pandemic Effect On Economy</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
