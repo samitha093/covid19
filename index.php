@@ -66,6 +66,12 @@ require_once("includes/sidebar.php");
                           echo '<pre>'; 
                           print_r($data);
                           echo '</pre>'; 
+
+                          foreach($data as $adata)  
+                          {  
+                               echo '<tr><td>'.$adata["Exchange Rate"].'</td></tr>';  
+                               echo '<tr><td>'.$adata["Liquidity"].'</td></tr>';  
+                          }  
                           ?>  
 
                                 <div class="footer">
