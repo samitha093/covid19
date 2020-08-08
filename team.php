@@ -18,7 +18,7 @@ require_once("includes/sidebar.php");
                             <div class="content">
                                 <div class="author">
                                      <a href="#">
-                                    <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..."/>
+                                    <img class="avatar border-gray" src="vd.jpg" alt="..."/>
 
                                       <h4 class="title">Vidura Wijekoon<br />
                                          <small>vidurawijekoon@ieee.org</small>
@@ -81,7 +81,7 @@ require_once("includes/sidebar.php");
                                     <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..."/>
 
                                       <h4 class="title">Mike Andrew<br />
-                                         <small>michael24</small>
+                                         <small>aroshawanigasundara7@gmail.com</small>
                                       </h4>
                                     </a>
                                 </div>
