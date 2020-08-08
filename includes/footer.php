@@ -52,7 +52,7 @@
     
     <script>
         $(document).ready(function(){
-            $( ".title" ).slideUp(time);
+            $( ".title" ).slideUp(0);
         });
     </script>
 
