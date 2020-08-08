@@ -6,18 +6,6 @@ require_once("includes/sidebar.php");
 <?php   
     $data = file_get_contents("data.json");  
     $data = json_decode($data,true);  
-    echo '<pre>'; 
-    print_r($data);
-    echo '</pre>'; 
-
-    foreach($data as $adata){  
-        $Liquidity = $adata["Liquidity"]; 
-        echo '<tr><td>'.$adata["Exports Gross Value"].'</td></tr>'; 
-        foreach($adata as $bdata){
-            echo '<tr><td>'.$bdata["Buying"].'</td></tr>';  
-            echo '<tr><td>'.$bdata["Selling"].'</td></tr>';
-        }    
-    }  
 ?>  
 
         <div class="content">
@@ -64,19 +52,33 @@ require_once("includes/sidebar.php");
 
                             <h4 class="title">Liquidity</h4>
                             <ul class="item">
-                                <li class="item-box">Liquidity  <?php 
+                                <li class="item-box">Liquidity 
+                                <?php 
                                 foreach($data as $adata){  
                                     echo $adata["Liquidity"];   
                                 }  
-                                ?> </li>
+                                ?> 
+                                </li>
                             </ul>
 
                             <h4 class="title">Tab 2</h4>
                             <ul class="item">
-                                <li class="item-box">Exports Gross Value  45  </li>
+                                <li class="item-box">Exports Gross Value
+                                <?php 
+                                foreach($data as $adata){  
+                                    echo $adata["Exports Gross Value"];   
+                                }  
+                                ?>  
+                                </li>
                             </ul>
                             <ul class="item">
-                                <li class="item-box">Imports Gross Value  45  </li>
+                                <li class="item-box">Imports Gross Value 
+                                <?php 
+                                foreach($data as $adata){  
+                                    echo $adata["Imports Gross Value"];   
+                                }  
+                                ?>   
+                                </li>
                             </ul>
 
                             <h4 class="title">Tab 3</h4>
