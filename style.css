@@ -8,6 +8,7 @@
     color: #777777;
 }
 .item-box{
+    margin: 20px;
     padding: 10px;
     text-align: center;
     background-color: aqua;
