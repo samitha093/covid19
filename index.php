@@ -16,14 +16,17 @@ require_once("includes/sidebar.php");
 
                     <div class="col-md-8">
                         <div class="card">
+
+
                             <div class="header">
                                 <h4 class="title">Users Behaviors</h4>
                             </div>
-
                             <div class="content">
-                                
+                            <h4 class="title">Exchange Rate</h4>
+                            <h6 class="title">Buying</h4>
+                            <h6 class="title">Selling</h4>
+                            <h4 class="title">Liquidity</h4>
                                 <div class="footer">
-                                    
                                     <hr>
                                     <div class="stats">
                                         <i class="fa fa-history"></i> Updated 3 minutes ago
