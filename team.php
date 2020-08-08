@@ -50,8 +50,8 @@ require_once("includes/sidebar.php");
                                      <a href="#">
                                     <img class="avatar border-gray" src="ar.jpg" alt="..."/>
 
-                                      <h4 class="title">Mike Andrew<br />
-                                         <small>michael24</small>
+                                      <h4 class="title">Arosha Wanigasundara<br />
+                                         <small>-</small>
                                       </h4>
                                     </a>
                                 </div>
@@ -110,8 +110,8 @@ require_once("includes/sidebar.php");
                                      <a href="#">
                                     <img class="avatar border-gray" src="sh.jpg" alt="..."/>
 
-                                      <h4 class="title">Mike Andrew<br />
-                                         <small>michael24</small>
+                                      <h4 class="title">Sahan Ediriweera<br />
+                                         <small>rsahanediriweera@gmail.com</small>
                                       </h4>
                                     </a>
                                 </div>
