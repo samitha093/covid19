@@ -47,7 +47,7 @@ echo
 
                             <h4 class="title">Liquidity</h4>
                             <ul class="item">
-                                <li class="item-box">Liquidity   echo $Liquidity;  </li>
+                                <li class="item-box">Liquidity'  .$Liquidity.' </li>
                             </ul>
 
                             <h4 class="title">Tab 2</h4>
