@@ -11,7 +11,7 @@ require_once("includes/sidebar.php");
     echo '</pre>'; 
 
     foreach($data as $adata){  
-        $Liquidity = .$adata["Liquidity"]; 
+        $Liquidity = $adata["Liquidity"]; 
         echo '<tr><td>'.$adata["Exports Gross Value"].'</td></tr>'; 
         foreach($adata as $bdata){
             echo '<tr><td>'.$bdata["Buying"].'</td></tr>';  
